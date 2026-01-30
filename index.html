@@ -1,10 +1,59 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 <head>
-  <title>Meu primeiro site</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>Morena Jambo Beachwear</title>
+
+  <link rel="stylesheet" href="style.css"/>
+
+  <!-- Google Analytics (depois você troca o G-XXXX) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXX');
+  </script>
 </head>
+
 <body>
-  <h1>Olá, mundo!</h1>
-  <p>Meu site no GitHub funcionou 🎉</p>
+
+<header>
+  <h1>Morena Jambo Beachwear</h1>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="sobre.html">Sobre</a>
+    <a href="comprar.html">Comprar</a>
+    <a href="https://instagram.com/SEUINSTAGRAM" target="_blank">Instagram</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>Cores vibrantes. Verão o ano todo.</h2>
+  <p>Linha premium • Conforto • Estilo</p>
+
+  <a class="btn" href="comprar.html">Comprar agora</a>
+</section>
+
+<section class="destaques">
+  <h2>Destaques da coleção</h2>
+
+  <div class="grid">
+    <img src="imagens/biquini1.jpg">
+    <img src="imagens/biquini2.jpg">
+    <img src="imagens/biquini3.jpg">
+  </div>
+</section>
+
+<footer>
+  © 2026 Morena Jambo Beachwear
+</footer>
+
+<!-- WhatsApp -->
+<a href="https://wa.me/55SEUNUMERO" class="whatsapp" target="_blank">💬</a>
+
 </body>
 </html>
